@@ -29,7 +29,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login('pontussvensson92@gmail.com', 'vcocawfrajvyolfo')
+    server.login('pontussvensson92@gmail.com', '***********')
 
     subject = "The price fell down on " + title
     body = 'Check the link :' + URL 
